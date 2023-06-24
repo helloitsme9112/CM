@@ -1,0 +1,63 @@
+<svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8_6)">
+<rect width="65" height="64" fill="transparent"/>
+<path d="M2 1C2 0.447715 1.55228 -2.41413e-08 1 0C0.447715 2.4141e-08 1.95703e-08 0.447715 4.37114e-08 1L2 1ZM2 64L2 1L4.37114e-08 1L2.79753e-06 64L2 64Z" fill="white"/>
+<g filter="url(#filter0_d_8_6)">
+<path d="M1 62C0.447715 62 -4.82823e-08 62.4477 0 63C4.82823e-08 63.5523 0.447715 64 1 64L1 62ZM64 62L1 62L1 64L64 64L64 62Z" fill="white"/>
+</g>
+<path d="M1 1L64 63" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M7 15L49 56.5" stroke="white" stroke-linecap="round"/>
+<path d="M7.5 15C7.5 14.7239 7.27614 14.5 7 14.5C6.72386 14.5 6.5 14.7239 6.5 15L7.5 15ZM7.5 57L7.5 15L6.5 15L6.5 57L7.5 57Z" fill="white"/>
+<line x1="7.5" y1="56.5" x2="49" y2="56.5" stroke="white" stroke-linecap="round"/>
+<line x1="2" y1="54.5" x2="4" y2="54.5" stroke="white"/>
+<line x1="2" y1="50.5" x2="4" y2="50.5" stroke="white"/>
+<line x1="2" y1="54.5" x2="4" y2="54.5" stroke="white"/>
+<line x1="2" y1="50.5" x2="4" y2="50.5" stroke="white"/>
+<line x1="2" y1="10.5" x2="4" y2="10.5" stroke="white"/>
+<line x1="2" y1="46.5" x2="4" y2="46.5" stroke="white"/>
+<line x1="2" y1="42.5" x2="4" y2="42.5" stroke="white"/>
+<line x1="2" y1="38.5" x2="4" y2="38.5" stroke="white"/>
+<line x1="2" y1="46.5" x2="4" y2="46.5" stroke="white"/>
+<line x1="2" y1="42.5" x2="4" y2="42.5" stroke="white"/>
+<line x1="2" y1="38.5" x2="4" y2="38.5" stroke="white"/>
+<line x1="2" y1="34.5" x2="4" y2="34.5" stroke="white"/>
+<line x1="2" y1="30.5" x2="4" y2="30.5" stroke="white"/>
+<line x1="2" y1="26.5" x2="4" y2="26.5" stroke="white"/>
+<line x1="2" y1="34.5" x2="4" y2="34.5" stroke="white"/>
+<line x1="2" y1="30.5" x2="4" y2="30.5" stroke="white"/>
+<line x1="2" y1="26.5" x2="4" y2="26.5" stroke="white"/>
+<line x1="2" y1="22.5" x2="4" y2="22.5" stroke="white"/>
+<line x1="2" y1="18.5" x2="4" y2="18.5" stroke="white"/>
+<line x1="2" y1="14.5" x2="4" y2="14.5" stroke="white"/>
+<line x1="2" y1="22.5" x2="4" y2="22.5" stroke="white"/>
+<line x1="2" y1="18.5" x2="4" y2="18.5" stroke="white"/>
+<line x1="2" y1="14.5" x2="4" y2="14.5" stroke="white"/>
+<line x1="9.5" y1="62" x2="9.5" y2="60" stroke="white"/>
+<line x1="13.5" y1="62" x2="13.5" y2="60" stroke="white"/>
+<line x1="17.5" y1="62" x2="17.5" y2="60" stroke="white"/>
+<line x1="21.5" y1="62" x2="21.5" y2="60" stroke="white"/>
+<line x1="25.5" y1="62" x2="25.5" y2="60" stroke="white"/>
+<line x1="29.5" y1="62" x2="29.5" y2="60" stroke="white"/>
+<line x1="33.5" y1="62" x2="33.5" y2="60" stroke="white"/>
+<line x1="37.5" y1="62" x2="37.5" y2="60" stroke="white"/>
+<line x1="41.5" y1="62" x2="41.5" y2="60" stroke="white"/>
+<line x1="45.5" y1="62" x2="45.5" y2="60" stroke="white"/>
+<line x1="49.5" y1="62" x2="49.5" y2="60" stroke="white"/>
+<line x1="53.5" y1="62" x2="53.5" y2="60" stroke="white"/>
+</g>
+<defs>
+<filter id="filter0_d_8_6" x="-4" y="62" width="72" height="10" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8_6"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8_6" result="shape"/>
+</filter>
+<clipPath id="clip0_8_6">
+<rect width="65" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>
