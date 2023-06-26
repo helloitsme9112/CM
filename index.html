@@ -18,18 +18,18 @@
   <header class="header" id="header">
     <div class="section-bg">
       <div class="container">
-        <div class="header__wrapper flex">
+        <div class="header__wrapper">
           <img class="header__logo" src="img/logo-sm.svg" alt="logo">
           <nav class="header__nav" title="Комплект-мебель">
-            <ul class="list-reset flex nav__list">
+            <ul class="list-reset nav__list">
               <li class="nav__item">
-                <a href="#about-us" class="nav__link">О нас</a>
+                <a data-scroll href="#about-us" class="nav__link">О нас</a>
               </li>
               <li class="nav__item">
-                <a href="#gallery" class="nav__link">Наши работы</a>
+                <a data-scroll href="#gallery" class="nav__link">Наши работы</a>
               </li>
               <li class="nav__item">
-                <a href="#address" class="nav__link">Как добраться</a>
+                <a data-scroll href="#address" class="nav__link">Как добраться</a>
               </li>
             </ul>
           </nav>
@@ -39,15 +39,17 @@
   </header>
 
   <button class="to-start btn-reset hidden">
-    <a href="#header"><img src="img/to-start.svg" alt="Наверх"></a>
+    <a data-scroll href="#hero"><img src="img/to-start.svg" alt="Наверх"></a>
   </button>
 
   <main class="main">
     <section class="hero" id="hero">
       <div class="container hero__container">
         <h1 class="visually-hidden">Комплект мебель — фирма по изготавлению индивидуальной мебели на заказ</h1>
-        <h2 class="hero__h2">Очень креативный и довольно длинный слоган, который каждый видит по-своему, чтобы
-          проверить переполнение</h2>
+        <h2 class="hero__h2">
+          Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Встретил пор строчка
+          океана агентство!
+        </h2>
         <div class="hero__wrapper">
           <img class="hero__logo" src="img/logo100-100.svg" alt="Лого">
           <div class="content-wrapper">
@@ -61,7 +63,7 @@
               minus? Molestias eius sunt sequi sint! Necessitatibus consectetur assumenda laudantium sint facere.
             </p>
             <button class="btn-reset hero__btn">
-              <a href="#">
+              <a data-scroll href="#">
                 Заказать расчёт
               </a>
             </button>
@@ -90,8 +92,7 @@
               <img loading="lazy" class="about-us__img" src="img/design.svg" alt="Дизайн">
               <h3 class="about-us__h3">Дизайн</h3>
               <p class="about-us__descr">Наши талантливые работники помогут реализовать ваш дизайн проект мечты
-                с максимальной профессиональностью и вниманием к деталям.
-              </p>
+                с максимальной профессиональностью и вниманием к деталям.</p>
             </li>
             <li class="about-us__item">
               <img loading="lazy" class="about-us__img" src="img/build.svg" alt="Сборка">
@@ -127,8 +128,8 @@
               itaque quo ipsum dolor ad id, doloremque velit atque eum ut eaque quam quibusdam omnis. Veniam ex libero
               voluptate quam dolorum cupiditate.
             </p>
-            <button class="btn-reset gallery__btn">
-              Подробнее
+            <button class="btn-reset gallery__btn" data-value="child">
+              <a href="#">Подробнее</a>
             </button>
           </li>
           <li class="gallery__list--item kitchen">
@@ -139,8 +140,8 @@
               itaque quo ipsum dolor ad id, doloremque velit atque eum ut eaque quam quibusdam omnis. Veniam ex libero
               voluptate quam dolorum cupiditate.
             </p>
-            <button class="btn-reset gallery__btn">
-              Подробнее
+            <button class="btn-reset gallery__btn" data-value="kitchen">
+              <a href="#">Подробнее</a>
             </button>
           </li>
           <li class="gallery__list--item restroom">
@@ -151,12 +152,25 @@
               itaque quo ipsum dolor ad id, doloremque velit atque eum ut eaque quam quibusdam omnis. Veniam ex libero
               voluptate quam dolorum cupiditate.
             </p>
-            <button class="btn-reset gallery__btn">
-              Подробнее
+            <button class="btn-reset gallery__btn" data-value="restroom">
+              <a href="#">Подробнее</a>
             </button>
           </li>
         </ul>
       </div>
+    </section>
+
+    <section>
+      <form action="sender.php" method="POST" enctype="multipart/form-data" class="form">
+        <label class="form__label">
+          <input type="text" name="name" class="input-reset form__input" placeholder="Имя">
+          <input type="tel" name="phone" class="input-reset form__input" placeholder="Телефон"
+            data-validate-field="tel">
+          <input type="email" name="email" class="input-reset form__input" placeholder="Электронная почта"
+            data-validate-field="email">
+        </label>
+        <button class="btn-reset form__btn">Отправить</button>
+      </form>
     </section>
 
   </main>
