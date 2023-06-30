@@ -34,11 +34,11 @@ try {
   // Настройки вашей почты
   $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
   $mail->Username   = 'cm.redir@gmail.com'; // Логин на почте
-  $mail->Password   = ''; // Пароль на почте
+  $mail->Password   = 'zqqmlvhqfobqoran'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
-  $mail->setFrom('cm.redir@gmail.com', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
+  $mail->setFrom('zakaz@complekt-mebel.ru', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
   $mail->addAddress('salon@complekt-mebel.ru');
