@@ -30,10 +30,24 @@
         <nav class="header__nav" title="Комплект-мебель">
           <ul class="list-reset nav__list">
             <li class="nav__list--item">
-              <a href="tel:+79999999999">+7 999 999-99-99</a>
+              <span>Телефоны</span>
+              <div class="phones--wrapper">
+                <ul class="list-reset phones">
+                  <li class="phones--item">
+                    <a class="phones--link" href="tel:+79255143700">+7 925 514-37-00</a>
+                  </li>
+                  <li class="phones--item">
+                    <a class="phones--link" href="tel:+79255143700">+7 925 514-37-00</a>
+                  </li>
+                  <li class="phones--item">
+                    <a class="phones--link" href="tel:+79255143700">+7 925 514-37-00</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- <a href="tel:+79255143700">+7 (925) 514-37-00</a> -->
             </li>
             <li class="nav__list--item">
-              <a href="mailto:salon@mail.ru">salon@mail.ru</a>
+              <a href="mailto:salon@mail.ru">salon@complekt-mebel.ru</a>
             </li>
             <li class="nav__list--item">
               <a href="https://api.whatsapp.com/send/?phone=79999999999&text=Здравствуйте%2C+у+меня+есть+вопрос">WhatsApp</a>
@@ -225,9 +239,15 @@
     <div class="contact-us__wrapper">
       <div id="map" class="contact-us__map"></div>
       <form action="#" method="POST" enctype="multipart/form-data" class="form" id="form">
-        <input type="text" name="name" class="input-reset form__input" placeholder="Имя">
-        <input type="tel" name="phone" class="input-reset form__input" placeholder="Телефон">
-        <input type="email" name="email" class="input-reset form__input" placeholder="Электронная почта">
+        <label for="name">
+          <input type="text" name="name" class="input-reset form__input" placeholder="Имя">
+        </label>
+        <label for="phone">
+          <input type="tel" name="phone" class="input-reset form__input" placeholder="Телефон">
+        </label>
+        <label for="email">
+          <input type="email" name="email" class="input-reset form__input" placeholder="Электронная почта">
+        </label>
         <button type="submit" class="btn-reset form__btn">Отправить</button>
         <p class="form__descr">Нажимая на кнопку «Отправить», вы соглашаетесь подтвержаете, что ознакомились с <span class="form__docs docs">Политикой конфиденциальности</span> и принимаете ее.</p class="form__descr">
       </form>

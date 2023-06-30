@@ -33,15 +33,15 @@ try {
 
   // Настройки вашей почты
   $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-  $mail->Username   = 'daniilmorozov047@gmail.com'; // Логин на почте
-  $mail->Password   = 'Morz1999koko9o17122004'; // Пароль на почте
+  $mail->Username   = 'cm.redir@gmail.com'; // Логин на почте
+  $mail->Password   = ''; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
-  $mail->setFrom('salon@noreply.com', 'Заявка с вашего сайта'); // Адрес самой почты и имя отправителя
+  $mail->setFrom('cm.redir@gmail.com', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('daniilmorozov047@gmail.com');
+  $mail->addAddress('salon@complekt-mebel.ru');
 
   // Прикрипление файлов к письму
   if (!empty($file['name'][0])) {
