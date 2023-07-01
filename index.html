@@ -11,8 +11,7 @@
   <link rel="preload" href="fonts/SawarabiGothic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/vendor.css">
   <link rel="stylesheet" href="css/main.css">
-  <!-- 7097e253-e7e1-4982-87d6-67089c77f4ba -->
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=<ваш API-ключ>&lang=ru_RU"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=7097e253-e7e1-4982-87d6-67089c77f4ba&lang=ru_RU"></script>
   <script defer src="js/main.js"></script>
 </head>
 
@@ -22,6 +21,22 @@
     <div class="container">
       <div class="header__wrapper">
         <img class="header__logo" src="img/header-logo.svg" alt="logo">
+        <button class="btn-reset phones">
+          Телефоны
+          <div class="phones--wrapper">
+            <ul class="list-reset">
+              <li class="phones--item">
+                <a class="phones--link" target="_blank" href="tel:+79255143700">+7 925 514-37-00</a>
+              </li>
+              <li class="phones--item">
+                <a class="phones--link" target="_blank" href="tel:+79255143600">+7 925 514-36-00</a>
+              </li>
+              <li class="phones--item">
+                <a class="phones--link" target="_blank" href="tel:+79262586665">+7 926 258-66-65</a>
+              </li>
+            </ul>
+          </div>
+        </button>
         <button class="btn-reset header__burger">
           <span class="burger__line"></span>
           <span class="burger__line"></span>
@@ -30,26 +45,11 @@
         <nav class="header__nav" title="Комплект-мебель">
           <ul class="list-reset nav__list">
             <li class="nav__list--item">
-              <span class="anchor">Телефоны</span>
-              <div class="phones--wrapper">
-                <ul class="list-reset phones">
-                  <li class="phones--item">
-                    <a class="phones--link anchor" href="tel:+79255143700">+7 925 514-37-00</a>
-                  </li>
-                  <li class="phones--item">
-                    <a class="phones--link anchor" href="tel:+79255143600">+7 925 514-36-00</a>
-                  </li>
-                  <li class="phones--item">
-                    <a class="phones--link anchor" href="tel:+79262586665">+7 926 258-66-65</a>
-                  </li>
-                </ul>
-              </div>
+              <a class="anchor" target="_blank" href="mailto:salon@mail.ru">salon@complekt-mebel.ru</a>
             </li>
             <li class="nav__list--item">
-              <a href="mailto:salon@mail.ru">salon@complekt-mebel.ru</a>
-            </li>
-            <li class="nav__list--item">
-              <a href="https://api.whatsapp.com/send/?phone=79255143600&text=Здравствуйте%2C+у+меня+есть+вопрос">WhatsApp</a>
+              <a class="anchor" target="_blank"
+                href="https://api.whatsapp.com/send/?phone=79255143600&text=Здравствуйте%2C+у+меня+есть+вопрос">WhatsApp</a>
             </li>
             <li class="nav__list--item">
               <a data-scroll href="#about-us" class="anchor">О нас</a>
@@ -82,11 +82,9 @@
         <p class="hero__descr">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facilis, odit nam assumenda repellat delectus, sit perspiciatis, nostrum sequi soluta vitae! Magnam aspernatur vitae voluptas vel id quas voluptate odit aut? Nihil placeat debitis quo nisi impedit maiores numquam ad dicta! Quidem placeat fugiat est nesciunt, quaerat modi quod, facere recusandae nulla dolores rerum illo, officia aliquid. Aut nulla accusantium alias mollitia quia nemo enim atque odio vitae? Esse earum quasi cupiditate ex obcaecati aliquam? Aliquid beatae, fuga dolores officia inventore nostrum eum suscipit earum accusamus quisquam amet minus? Molestias eius sunt sequi sint! Necessitatibus consectetur assumenda laudantium sint facere.
         </p>
-        <button class="btn-reset hero__btn">
-          <a data-scroll href="#form">
-            Заказать расчёт
-          </a>
-        </button>
+        <a  class="hero__btn" href="#form">
+          Заказать расчёт
+        </a>
       </div>
     </div>
   </div>
